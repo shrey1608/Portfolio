@@ -1,0 +1,92 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shrey Modi</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/shrey.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Shrey!</h4>
+					<p>I love coding, exploring new things and Jumping into expeditions </p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>ABOUT ME</h4>
+					<hr>
+					<p>Ever since i entered teenage, software development has been my passion. I still remember sitting infront of my laptop and coding "Hello Shrey" for the first time in C and getting the output on the blank screen gave me goosebumps.So in my middle school i learned C through books and making projects and then proceeded towards C++ in high school and made more advanced projects. I was insatiable</p>
+                    <p>The passion carried me  through my education in engineering and majoring in Information Technology.Here there were more opportunity and resources available to me to improve my skills to be somewhat ready for the Tech industry and to test my skills i did a summer tech internship after the freshman year  and learnt what industry needs for me and what i have to improve on and the passion incresed more towards the field.</p>
+                    <p>And this mad passion doesnt let me move backwards and omits procastination towards work and its calling me to work more and more in this beautiful industry.</p>
+				
+                    <ul class="social-links">
+						<li><a href="https://www.linkedin.com/in/shrey-modi-3a3170171/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                        <li><a href="https://github.com/shrey1608"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+                        <li><a href="https://medium.com/@shrey007/"><img class="social" src="{% static 'images/medium.png' %}"></a></li>
+					</ul>
+                    
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Interned at Firecamp.</p>
+					<p>Played with different kind of API's , GraphQL and websockets.Made starter kits for some of the websites and integrated it to firecamp. Learned about Socket.io and also made several integrations.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, Selenium , Automation, Flask,  HTML/CSS, JavaScript/Jquery, Postgres, AWS and APIs  and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Node JS, GraphQl , Mongo DB and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Projects</h5>
+				<hr>
+				<p>1) Order managing system using Django</p>
+				<p>2) Browser Assistant using Python framework Selenium</p>
+                <p>3) Resume Ranker using Flask </p>
+                <p>4) Language Detection using python </p>
+                <p>It is a long list so to know in detail about the project visit my Github profile and also find the other projects out there :P</p>
+
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
